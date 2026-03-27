@@ -1,0 +1,2 @@
+'*.{js,cjs,mjs,jsx,ts,cts,mts,tsx,json,jsonc,html,css}':
+  - biome check --write
