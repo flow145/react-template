@@ -12,11 +12,6 @@
     "useEditorconfig": true,
     "lineWidth": 100
   },
-  "linter": {
-    "rules": {
-      "recommended": true
-    }
-  },
   "javascript": {
     "formatter": {
       "quoteStyle": "single",
