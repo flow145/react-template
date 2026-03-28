@@ -3,10 +3,8 @@ name: CI
 on:
   push:
     branches: [main]
-    paths-ignore: ['*.md', LICENSE, .gitignore, .husky/**, .vscode/**]
   pull_request:
     branches: [main]
-    paths-ignore: ['*.md', LICENSE, .gitignore, .husky/**, .vscode/**]
   workflow_dispatch:
 
 concurrency:
@@ -20,7 +18,7 @@ env:
 
 jobs:
   check:
-    name: Check
+    name: Quality check
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -38,14 +36,12 @@ jobs:
           cache: pnpm
 
       - name: Install
-        id: install
         run: pnpm install
 
       - name: Format and lint
-        run: pnpm run check
+        run: pnpm biome ci
 
       - name: Check types
-        if: always() && steps.install.outcome == 'success'
         run: pnpm run typecheck
 
   build:
