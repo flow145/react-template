@@ -1,6 +1,6 @@
 {
   "name": "react-template",
-  "description": "A template for React apps with TypeScript and Vite",
+  "description": "A minimal template for React apps with TypeScript and Vite",
   "version": "1.0.0-alpha.0",
   "private": true,
   "type": "module",
@@ -16,8 +16,7 @@
     "format:fix": "pnpm format --write",
     "check": "biome check --reporter=summary",
     "check:fix": "pnpm check --write",
-    "typecheck": "tsc -b",
-    "prepare": "husky"
+    "typecheck": "tsc -b"
   },
   "dependencies": {
     "react": "~19.2.4",
@@ -31,8 +30,7 @@
     "@types/react": "~19.2.14",
     "@types/react-dom": "~19.2.3",
     "@vitejs/plugin-react": "~6.0.1",
-    "husky": "~9.1.7",
-    "lint-staged": "~16.4.0",
+    "lefthook": "~2.1.4",
     "typescript": "~5.9.3",
     "vite": "~8.0.1",
     "vite-plugin-mkcert": "~1.17.10"

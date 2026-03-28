@@ -2,16 +2,16 @@
 
 # React template
 
-An opinionated template for React apps with TypeScript and Vite.
+A minimal template for React apps with TypeScript and Vite.
 
 ## Features
 
 - **React 19**
 - **TypeScript** strict configuration, path aliases (`~/*` maps to `src/*`)
 - **Vite 8** with Rolldown
-- **Biome** for linting and formatting (with EditorConfig support)
 - **pnpm** - efficient package manager
-- **Git hooks** via Husky + lint-staged
+- **Biome** for linting and formatting (with EditorConfig support)
+- **Git hooks** - quality checks on precommit and push via lefthook
 - **Commit validation** via Commitlint (Conventional Commits)
 - **CI** via GitHub Actions (runs on push and pull request)
 
