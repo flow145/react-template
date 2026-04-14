@@ -1,7 +1,7 @@
 pre-commit:
   commands:
     check:
-      run: pnpm check:fix {staged_files}
+      run: pnpm check:fix --no-errors-on-unmatched {staged_files}
       glob: "*.{js,cjs,mjs,jsx,ts,cts,mts,tsx,json,jsonc,html,css}"
       stage_fixed: true
 
@@ -14,6 +14,6 @@ pre-push:
   parallel: true
   commands:
     check:
-      run: pnpm check
+      run: pnpm check --no-errors-on-unmatched
     typecheck:
       run: pnpm typecheck
