@@ -17,7 +17,7 @@ A minimal project starter for React apps with TypeScript and Vite.
 
 ## Prerequisites
 
-- Node.js 20.19+ / 22.12+
+- Node.js 22.12+
 - pnpm
 
 _The listed tools can be installed with [Mise](https://mise.jdx.dev/), a fast, cross-platform tool version manager._
