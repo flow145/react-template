@@ -1,8 +1,8 @@
-[![CI](https://github.com/flow145/react-template/actions/workflows/ci.yml/badge.svg)](https://github.com/flow145/react-template/actions/workflows/ci.yml)
+[![CI](https://github.com/flow145/react-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/flow145/react-starter/actions/workflows/ci.yml)
 
-# React template
+# React starter
 
-A minimal template for React apps with TypeScript and Vite.
+A minimal project starter for React apps with TypeScript and Vite.
 
 ## Features
 
@@ -27,7 +27,7 @@ _The listed tools can be installed with [Mise](https://mise.jdx.dev/), a fast, c
 1. Click the `Use this template` button on GitHub or clone locally:
 
    ```sh
-   pnpm dlx degit flow145/react-template react-project
+   pnpm dlx degit flow145/react-starter react-project
    ```
 
    Both methods will clean the git history.

@@ -1,13 +1,13 @@
 {
-  "name": "react-template",
-  "description": "A minimal template for React apps with TypeScript and Vite",
+  "name": "react-starter",
+  "description": "A minimal project starter for React apps with TypeScript and Vite",
   "version": "1.0.0-alpha.0",
   "private": true,
   "type": "module",
   "license": "MIT",
-  "homepage": "https://github.com/flow145/react-template#readme",
-  "bugs": "https://github.com/flow145/react-template/issues",
-  "repository": "git@github.com:flow145/react-template.git",
+  "homepage": "https://github.com/flow145/react-starter#readme",
+  "bugs": "https://github.com/flow145/react-starter/issues",
+  "repository": "git@github.com:flow145/react-starter.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
