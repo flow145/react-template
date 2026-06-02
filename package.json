@@ -23,16 +23,16 @@
     "react-dom": "~19.2.6"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.15",
-    "@commitlint/cli": "~20.5.3",
-    "@commitlint/config-conventional": "~20.5.3",
+    "@biomejs/biome": "2.4.16",
+    "@commitlint/cli": "~21.0.2",
+    "@commitlint/config-conventional": "~21.0.2",
     "@types/node": "~24.12.4",
-    "@types/react": "~19.2.14",
+    "@types/react": "~19.2.15",
     "@types/react-dom": "~19.2.3",
-    "@vitejs/plugin-react": "~6.0.1",
-    "lefthook": "~2.1.6",
-    "typescript": "~5.9.3",
-    "vite": "~8.0.12",
-    "vite-plugin-mkcert": "~1.17.12"
+    "@vitejs/plugin-react": "~6.0.2",
+    "lefthook": "~2.1.9",
+    "typescript": "~6.0.3",
+    "vite": "~8.0.16",
+    "vite-plugin-mkcert": "~2.0.0"
   }
 }
